@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 1px solid #111;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.ri-menu-3-line{
+    font-size: 16px;
+    border: 1px solid #111;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#nav button{
+    padding: 5px 8px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid #111;
+    font-size: 16px;
+    background-color: white;
+}
+
+#btn2{
+    background-color: orangered !important;
+    color: white;
+    border: none !important;
+}
+
+h1{
+    font-size: 120px;
+    text-align: center; 
+}
+
+img{
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg)
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg)
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg)
+}
+
+#btm-left{
+    overflow: hidden;
+    position: absolute;
+    bottom: 4%;
+    left: 30px;
+}
+
+#btm-right{
+    overflow: hidden;
+    position: absolute;
+    bottom: 4%;
+    right: 30px;
+}
+
+#btm-right i{
+    font-size: 20px;
+}
+
+.containing-h1{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
